@@ -33,6 +33,7 @@ const SignIn = () => {
         <AuthForm
           form={<SignInForm handleSwitch={handleSwitchScreen} />}
           title={TITLE_CONFIG}
+          // Project is still in development.
         />
       )}
       {!isSignIn && <ForgotPasswordPage handleSwitch={handleSwitchScreen} />}
